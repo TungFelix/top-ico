@@ -6,7 +6,7 @@ require "top/ico/version"
 Gem::Specification.new do |spec|
   spec.name          = "top-ico"
   spec.version       = Top::Ico::VERSION
-  spec.authors       = ["TungFelix", "duytd", "merlinv"] 
+  spec.authors       = ["TungFelix", "duytd", "merlinv"]
   spec.email         = ["bluephoenix.hp@gmail.com", "duytd.hanu@gmail.com", "summondk@gmail.com"]
 
   spec.summary       = %q{Finding up-to-date list of trending and promising ICOs to invest from topicolist.com}
@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_dependency "nokogiri"
 end
