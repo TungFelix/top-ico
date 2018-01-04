@@ -4,7 +4,6 @@ require "open-uri"
 
 module Top
   module Ico
-    # Your code goes here...
     URL = "https://topicolist.com/".freeze
 
     def self.active
