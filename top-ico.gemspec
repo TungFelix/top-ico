@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["bluephoenix.hp@gmail.com", "duytd.hanu@gmail.com", "summondk@gmail.com"]
 
   spec.summary       = %q{Finding up-to-date list of trending and promising ICOs to invest from topicolist.com}
-  spec.description   = %q{Start using our cryptocurrency ico list and discover the best initial coin offerings}
+  spec.description   = %q{Finding up-to-date list of trending and promising ICOs to invest from topicolist.com}
   spec.homepage      = "https://github.com/TungFelix/top-ico"
   spec.license       = "MIT"
 
